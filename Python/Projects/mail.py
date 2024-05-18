@@ -1,5 +1,5 @@
-from email.message import EmailMessage, EmailID
-from app2 import password
+from email.message import EmailMessage
+from app2 import password, EmailID
 import ssl
 import smtplib
 
