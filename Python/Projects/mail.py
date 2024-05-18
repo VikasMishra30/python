@@ -1,9 +1,9 @@
-from email.message import EmailMessage
+from email.message import EmailMessage, EmailID
 from app2 import password
 import ssl
 import smtplib
 
-email_sender = "mishravikas3003@gmail.com"
+email_sender = EmailID
 email_password = password
 email_receiver = input('Enter Email: ')
 
